@@ -30,7 +30,7 @@
      <header>
            <!-- navbar section start here -->
             <nav class="border border-b-2">
-                <div class="navbar bg-base-100  md:w-[1024px] md:mx-auto">
+                <div class="navbar bg-base-100  md:w-[1100px] md:mx-auto">
                     <div class="navbar-start">
                       <a class="text-xl"><img class="w-32" src="./images/logo.svg" alt=""></a>
                     </div>
@@ -66,7 +66,7 @@
                         </div>
                         <ul
                           tabindex="0"
-                          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                          class="menu menu-sm right-0 dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                           <li><a class="text-lg font-semibold">Home</a></li>
                         <li><a class="text-lg font-semibold">Everything</a></li>
                         <li><a class="text-lg font-semibold">Groceries</a></li>
@@ -79,9 +79,9 @@
             </nav>
            <!-- hero section start here -->
             <section class="bg-[#ebecec] md:py-16">
-                <div class="hero  md:w-[1024px] md:mx-auto">
+                <div class="hero  md:w-[1100px] md:mx-auto">
                     <div class="hero-content flex-col gap-10 lg:flex-row relative">
-                      <img class="absolute opacity-20 max-w-md -bottom-16 -right-28" src="./images/leaf01.png" alt="">
+                      <img class="absolute opacity-20 max-w-md -bottom-16 -right-28 hidden md:block" src="./images/leaf01.png" alt="">
                       <img
                         src="./images/bannerbg.png"
                         class="max-w-sm md:max-w-md rounded-lg " />
@@ -103,8 +103,61 @@
      <!-- main section start here -->
      <main>
           <!-- overview-card section start here -->
-           <section>
-
+           <section class="bg-black">
+                  <div class="md:w-[1100px] md:mx-auto py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                      <!-- card-1 -->
+                      <div class="shadow bg-slate-800 text-white w-[300px] md:w-[260px] rounded mx-auto">
+                        <div class="flex items-center lg:flex-row py-8 px-4 gap-6 md:gap-3">
+                            <i class="fa-solid fa-2xl text-color-one fa-truck"></i>
+                          <div>
+                            <h1 class="text-xl font-bold">Free Shiping</h1>
+                            <p class="py-1">
+                              Above $5 Only.
+                            </p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card-2 -->
+                      <div class=" shadow bg-slate-800 text-white w-[300px] md:w-[260px] rounded mx-auto">
+                        <div class="flex items-center lg:flex-row py-8 px-4 gap-6 md:gap-3">
+                            <i class="fa-solid fa-2xl text-color-one fa-certificate"></i>
+                          <div>
+                            <h1 class="text-xl font-bold">Certified Organic</h1>
+                            <p class="py-1">
+                              100% Organic.
+                            </p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card-3 -->
+                      <div class="shadow bg-slate-800 text-white w-[300px] md:w-[260px] rounded mx-auto">
+                        <div class="flex items-center lg:flex-row py-8 px-4 gap-6 md:gap-3">
+                            <i class="fa-solid fa-2xl text-color-one fa-dog"></i>
+                          <div class="">
+                            <h1 class="text-xl font-bold">Huge Saving</h1>
+                            <p class="py-1">
+                              At Lowest Cost.
+                            </p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card-4 -->
+                      <div class="shadow bg-slate-800 text-white w-[300px] md:w-[260px] rounded mx-auto">
+                        <div class="flex items-center lg:flex-row py-8 px-4  gap-6 md:gap-3">
+                            <i class="fa-solid fa-2xl text-color-one fa-pen-to-square"></i>
+                          <div class="">
+                            <h1 class="text-xl font-bold">Easy Returns</h1>
+                            <p class="py-1">
+                              No Question Asked.
+                            </p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                  </div>
            </section>
            <!-- about-us section start here -->
            <section>
